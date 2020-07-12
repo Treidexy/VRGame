@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
@@ -8,7 +6,13 @@ public class EnemyController : MonoBehaviour
     public Transform target;
     public NavMeshAgent agent;
 
-    public float lookRadius = 10f;
+    public float lookRadius = 14f;
+
+    public float strength = 1.0f;
+
+    public float attackDelay = 0.5f;
+
+    private float attackTimer = 0f;
 
     private void Start()
     {
@@ -23,6 +27,20 @@ public class EnemyController : MonoBehaviour
         if (dist <= lookRadius)
         {
             agent.SetDestination(target.position);
+
+            if (dist <= agent.stoppingDistance + 0.69f)
+            {
+                FaceTarget();
+
+                if (attackTimer >= attackDelay)
+                {
+                    Attack();
+
+                    attackTimer = 0;
+                }
+            }
+
+            attackTimer += Time.deltaTime;
         }
     }
 
@@ -30,5 +48,17 @@ public class EnemyController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
+    }
+
+    public void Attack()
+    {
+        PlayerManager.instance.player.GetComponent<Player>().Damage(strength);
+    }
+
+    public void FaceTarget()
+    {
+        Vector3 dir = (target.position - transform.position).normalized;
+        Quaternion lookRot = Quaternion.LookRotation(new Vector3(dir.x, 0, dir.y));
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRot, Time.deltaTime * 4.5f);
     }
 }

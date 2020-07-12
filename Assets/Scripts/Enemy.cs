@@ -1,25 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class Enemy : MonoBehaviour
 {
     public TextMesh hpText;
 
-    public float maxHealth;
+    public UnityEvent OnDead;
+
+    public float maxHealth = 20f;
     public float health;
 
     private bool displayHealth = false;
 
-    private void Awake()
-    {
-        health = maxHealth;
-    }
-
     private void Start()
     {
-        hpText.text = "";
+        health = maxHealth;
+        hpText.gameObject.SetActive(false);
     }
 
     private void FixedUpdate()
@@ -34,11 +30,12 @@ public class Enemy : MonoBehaviour
     public void ShowHealth()
     {
         displayHealth = true;
+        hpText.gameObject.SetActive(true);
     }
 
     public void HideHealth()
     {
-        hpText.text = "";
+        hpText.gameObject.SetActive(false);
     }
      
     public void Damage(float amount)
@@ -52,6 +49,8 @@ public class Enemy : MonoBehaviour
     {
         if (health <= 0f)
         {
+            OnDead.Invoke();
+
             GameManager.instance.ChangeGVRClick(true);
             Destroy(gameObject);
         }

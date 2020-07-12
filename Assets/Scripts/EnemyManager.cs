@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyManager : MonoBehaviour
 {
     public GameObject prefab;
 
-    public void SpawnEnemy(Transform spawnTransform)
+    public void SpawnEnemy(Transform spawnPos)
     {
-        Instantiate(prefab, spawnTransform);
+        GameObject enemyToSpawn = Instantiate(prefab);
+        enemyToSpawn.transform.position = spawnPos.position;
+        enemyToSpawn.transform.rotation = spawnPos.rotation;
     }
 }
