@@ -36,23 +36,31 @@ public class Player : MonoBehaviour
     {
         hpText.SetText($"{health} HP");
 
+        if (transform.position.y <= -69f)
+            Damage(6.9f);
+
         attackTimer += Time.deltaTime;
 
         if (attackTimer >= attackDelay)
         {
             canAttack = true;
 
-           /*
-              if (Input.GetMouseButtonDown((int) MouseButton.LeftMouse))
+            if (Input.GetMouseButtonDown((int) MouseButton.LeftMouse))
                 attackTimer = 0;
-           */
         }
         else
             canAttack = false;
     }
 
-    public void Attack(Enemy enemy) =>
-        enemy.Damage(strength);
+    public void Attack(Enemy enemy)
+    {
+        if (canAttack)
+        {
+            attackTimer = 0;
+
+            enemy.Damage(strength);
+        }
+    }
 
     public void Damage(float amount)
     {

@@ -16,4 +16,6 @@ class GameManager : MonoBehaviour
     public static bool countGVRClick = true;
 
     public void ChangeGVRClick(bool countGVR) => countGVRClick = countGVR;
+
+    public void Exit() => Application.Quit();
 }

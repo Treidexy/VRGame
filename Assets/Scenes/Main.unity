@@ -127,6 +127,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5545853680179275800}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &106351152 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5731726679776120570, guid: 18ac405abafb2884a8673c780c80b2c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5545853680179275800}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106351150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3857710116794874f94733f163faa07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &122727698 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2524600183846075254, guid: 600eef8393c68874f972ee9776d2dc3b,
@@ -411,6 +423,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2494533062329070536, guid: fa84866ff5d940745a82d04d0d0190ba,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 106351152}
+    - target: {fileID: 2494533062329070536, guid: fa84866ff5d940745a82d04d0d0190ba,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Attack
+      objectReference: {fileID: 0}
     - target: {fileID: 2494533062329070577, guid: fa84866ff5d940745a82d04d0d0190ba,
         type: 3}
       propertyPath: m_Name
@@ -672,6 +694,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2494533062329070536, guid: fa84866ff5d940745a82d04d0d0190ba,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 106351152}
+    - target: {fileID: 2494533062329070536, guid: fa84866ff5d940745a82d04d0d0190ba,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Attack
+      objectReference: {fileID: 0}
     - target: {fileID: 2494533062329070577, guid: fa84866ff5d940745a82d04d0d0190ba,
         type: 3}
       propertyPath: m_Name
@@ -977,6 +1009,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2494533062329070536, guid: fa84866ff5d940745a82d04d0d0190ba,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 106351152}
+    - target: {fileID: 2494533062329070536, guid: fa84866ff5d940745a82d04d0d0190ba,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Attack
+      objectReference: {fileID: 0}
     - target: {fileID: 2494533062329070577, guid: fa84866ff5d940745a82d04d0d0190ba,
         type: 3}
       propertyPath: m_Name
@@ -1253,6 +1295,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2494533062329070536, guid: fa84866ff5d940745a82d04d0d0190ba,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 106351152}
+    - target: {fileID: 2494533062329070536, guid: fa84866ff5d940745a82d04d0d0190ba,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Attack
+      objectReference: {fileID: 0}
     - target: {fileID: 2494533062329070577, guid: fa84866ff5d940745a82d04d0d0190ba,
         type: 3}
       propertyPath: m_Name
@@ -1327,6 +1379,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2494533062329070536, guid: fa84866ff5d940745a82d04d0d0190ba,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 106351152}
+    - target: {fileID: 2494533062329070536, guid: fa84866ff5d940745a82d04d0d0190ba,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Attack
+      objectReference: {fileID: 0}
     - target: {fileID: 2494533062329070577, guid: fa84866ff5d940745a82d04d0d0190ba,
         type: 3}
       propertyPath: m_Name

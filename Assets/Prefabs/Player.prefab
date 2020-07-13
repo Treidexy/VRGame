@@ -257,7 +257,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4911420172925618646
 GameObject:
@@ -874,6 +874,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8623633898441760288}
     m_Modifications:
+    - target: {fileID: 987357991182196073, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4284703587
+      objectReference: {fileID: 0}
+    - target: {fileID: 987357991182196073, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 987357991182196073, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 987357991182196073, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 987357991182196073, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 987357991182196073, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 987357991182196073, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1979798093937102083, guid: 94f632b68ac4b3e4790b886f53701f17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -934,6 +969,36 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 5731726679776120570}
+    - target: {fileID: 3120468631441222089, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278585087
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120468631441222089, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120468631441222089, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120468631441222089, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120468631441222089, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3120468631441222089, guid: 94f632b68ac4b3e4790b886f53701f17,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6625015412066641716, guid: 94f632b68ac4b3e4790b886f53701f17,
         type: 3}
       propertyPath: m_Name

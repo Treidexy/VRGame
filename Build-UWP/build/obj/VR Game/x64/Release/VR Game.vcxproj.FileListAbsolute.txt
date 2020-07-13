@@ -1,0 +1,48 @@
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\bin\x64\Release\resources.pri
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\bin\x64\Release\AppxManifest.xml
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\bin\x64\Release\VR Game.build.appxrecipe
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\VR Game.vcxprojAssemblyReference.cache
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\VR Game.vcxproj.CopyComplete
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\ResourceHandlingTask.state
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\VR Game.vcxproj.GenerateResource.Cache
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\priconfig.xml
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\priconfig.xml.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\unfiltered.layout.resfiles
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\unfiltered.layout.resfiles.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\filtered.layout.resfiles
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\filtered.layout.resfiles.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\excluded.layout.resfiles
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\excluded.layout.resfiles.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\resources.resfiles
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\resources.resfiles.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\pri.resfiles
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\pri.resfiles.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\qualifiers.txt
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\qualifiers.txt.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\ProjectArchitectures.txt
+C:\Users\Teddy\Documents\GitHub\VRGame\Build\build\obj\VR Game\x64\Release\.winmd_cache\$UnityPlayer.winmd_637296547220000000.json
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\bin\x64\Release\resources.pri
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\bin\x64\Release\AppxManifest.xml
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\bin\x64\Release\VR Game.build.appxrecipe
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\VR Game.vcxprojAssemblyReference.cache
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\VR Game.vcxproj.CopyComplete
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\ResourceHandlingTask.state
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\VR Game.vcxproj.GenerateResource.Cache
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\priconfig.xml
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\priconfig.xml.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\unfiltered.layout.resfiles
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\unfiltered.layout.resfiles.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\filtered.layout.resfiles
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\filtered.layout.resfiles.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\excluded.layout.resfiles
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\excluded.layout.resfiles.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\resources.resfiles
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\resources.resfiles.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\pri.resfiles
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\pri.resfiles.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\qualifiers.txt
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\qualifiers.txt.intermediate
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\ProjectArchitectures.txt
+C:\Users\Teddy\Documents\GitHub\VRGame\Build-UWP\build\obj\VR Game\x64\Release\.winmd_cache\$UnityPlayer.winmd_637296547220000000.json
